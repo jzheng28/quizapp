@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+<!--Quiz start page -->
+<section class="start">
+<h1>LYRICS<em>NOW</em></h1>
+
+<div class="container">
+<p>Are you a music buff? Do you know the lyrics to all the best hits by heart? Take this quiz only if you're up for the challenge!</p>
+<!-- Button -->
+<div class="button">
+<button class="startButton" type="button">Start Quiz</button>
+</div>
+</div>
+</section>
+
+<!--End of quiz start page -->
+  
+<!--Quiz Content -->
+<section class="quizBody hidden">
+  <h1 class="quizQuestion"></h1>
+  <font class="error hidden">Please make a selection!</font><br>
+  <p class="answerChoices"></p>
+    <!--Submit answer button -->
+<div class="button">
+<button class="submitButton hidden" type="button">Submit</button>
+</div>
+<!--Submit answer button -->
+  
+</section>
+
+ 
+
+<!-- End of Quiz Content -->
+
+
+
+<!--Result section-->
+<section class="result hidden">
+  <p class="resultText"></p>
+   <p class="scoreText"></p>
+</section>
+
+<!--Feedback session-->
+<section class="feedback hidden">
+  <p class="feedback-text"></p>
+     <!--Submit answer button -->
+<div class="button">
+<button class="nextButton" type="button">Next Question</button>
+</div>
+<!--Submit answer button -->
+</section>
+
+<section class="finalScore hidden">
+  <p class="finalScoreText"></p>
+  <p>Take the quiz again!</p>
+  <div class="button">
+  <button class="lastButton">Start Again</button>
+  </div>
+</section>
+
+
+  <script src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   crossorigin="anonymous"></script>
+  
+  <script type="text/javascript" src="app.js"></script>
+   
+</body>
+</html>
